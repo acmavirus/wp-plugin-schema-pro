@@ -1,0 +1,20 @@
+{
+    "name": "acma/wp-schema-pro",
+    "description": "WordPress Schema Pro Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "AcmaTvirus"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acma\\WpSchemaPro\\": "src/"
+        }
+    }
+}
